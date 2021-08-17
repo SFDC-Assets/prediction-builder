@@ -3,18 +3,13 @@
     "description": "einstein-prediction-builder",
     "edition": "Developer",
     "hasSampleData": true,
-    "features": ["EinsteinBuilderFree"],
+    "features": ["EinsteinBuilderFree", "enableSetPasswordInApi"],
     "settings": {
         "lightningExperienceSettings": {
             "enableS1DesktopEnabled": true
         },
         "mobileSettings": {
             "enableS1EncryptedStoragePref2": false
-        },
-        "securitySettings": {
-            "passwordPolicies": {
-                "enableSetPasswordInApi": true
-            }
         }
     }
 }
